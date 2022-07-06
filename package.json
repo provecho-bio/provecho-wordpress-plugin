@@ -1,0 +1,31 @@
+{
+  "name": "provecho-recipe-plugin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "preview": "npm-run-all --parallel sync start",
+    "sync": "browser-sync start -p 'provecho.local' --files '**/*.php' 'build/*.js' 'build/*.css'",
+    "build": "wp-scripts build src/*.js",
+    "start": "wp-scripts start src/*.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@wordpress/scripts": "^23.4.0",
+    "browser-sync": "^2.27.10",
+    "npm-run-all": "^4.1.5",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "@chakra-ui/icons": "^1.0.5",
+    "@chakra-ui/react": "^1.7.3",
+    "@chakra-ui/theme-tools": "1.1.2",
+    "@emotion/react": "11.1.5",
+    "@emotion/styled": "11.1.5",
+    "framer-motion": "^6.3.16",
+    "iframe-resizer-react": "^1.1.0"
+  }
+}
