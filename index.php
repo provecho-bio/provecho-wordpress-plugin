@@ -2,9 +2,10 @@
 
 /*
   Plugin Name: Provecho Recipes
-  Version: 1.1
-  Author: Shadman
-  Author URI: https://github.com/shadmanrakib
+  Version: 1.0
+  Author: Provecho
+  Author URI: https://github.com/provecho-bio
+  Description: This plugin allows Wordpress users to easily embed their Provecho recipes into their sites.
 */
 
 if (!defined('ABSPATH')) exit; // Exit if accessed directly
